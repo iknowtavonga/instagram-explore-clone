@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
     /* Background for main section of web version
     
     background-color: rgb(235, 235, 235);*/
@@ -10,7 +11,7 @@
 
 
 #logo{
-    width: 150px;
+    width: 10vw;
 }
 
 header{
@@ -36,6 +37,48 @@ header{
         padding: 5px 0 0 0;
     }
 
+    #search-bar{
+        width: 15vw;
+        height: 30px;
+        border: 1px solid rgb(216, 216, 216);
+        border-radius: 4px;
+        padding: 5px;
+        background-color: rgba(235, 235, 235, 0.664);
+        color: rgba(0, 0, 0, 0.562);
+        -webkit-appearance: none;
+        outline: none;
+        text-align: center;
+    }
+
+    #search-bar::placeholder{
+        font-size: 1em;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.452);
+    }
+
+    /*Buttons*/
+
+    .web-button{
+        font-weight: 500;
+        width: 70px;
+        height: 35px;
+        -webkit-appearance: none;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+    }
+
+    #login-button{
+        background-color: rgb(1, 151, 238);
+        color: #f8f8f8;
+        font-size: 13px;
+    }
+
+    #signup-button{
+        background-color: #ffffff;
+        color: rgb(1, 151, 238);
+    }
+
     .section-break{
         border-top: 1px solid rgb(216, 216, 216);
     }
@@ -43,7 +86,7 @@ header{
 
 /*App Only Styles*/
 
-@media (min-width: 426px) and (max-width: 768px){
+@media (min-width: 290px) and (max-width: 768px){
     #web{
         display: none;
     }
