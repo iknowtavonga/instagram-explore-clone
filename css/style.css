@@ -11,6 +11,7 @@
 
 
 #logo{
+    cursor: pointer;
     width: 10vw;
 }
 
@@ -59,6 +60,7 @@ header{
     /*Buttons*/
 
     .web-button{
+        cursor: pointer;
         font-weight: 500;
         width: 70px;
         height: 35px;
