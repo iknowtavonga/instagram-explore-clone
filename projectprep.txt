@@ -1,0 +1,37 @@
+This project will be a clone of the web and app version of the instagram explore page
+
+Layouts 
+
+Web version
+- Header 
+    - Logo (Far Left)
+    - Search-bar (Middle)
+    - Blue login button (Far right)
+    - White sign up button (Far right)
+
+- Main
+    - Most recent h4
+    - 3 col grid
+
+No footer
+
+Mobile and tablet version
+
+- Header
+    - Searchbar (Left)
+    - Scan icon (Right)
+    - Options buttons
+
+- Main
+    - Reels
+    - 3 row grid x2
+    - 2 row grid pic and video
+    - 2 row grid 
+    - 3 row grid x2
+
+- footer
+    - home icon 
+    - search icon
+    - add icon
+    - heart icon
+    - user icon    
