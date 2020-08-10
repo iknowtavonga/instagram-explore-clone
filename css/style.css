@@ -17,8 +17,7 @@
 
 header{
     display: flex;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 /*Web only styles*/
@@ -118,4 +117,19 @@ header{
         display: none;
     }
 
+    header{
+        justify-content: center;
+    }
+    
+    .header-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.2em;
+        width: 98vw;
+    }
+
+    #search-bar{
+        
+    }
 }
