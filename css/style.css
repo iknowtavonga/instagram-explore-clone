@@ -146,4 +146,25 @@ header{
         width: 80vw;
         padding: 3px;
     }
+
+    /*Main Section*/
+
+    .reels{
+        background-color: aqua;
+        height: 50vh;
+        margin: 3px;
+    }
+
+    .pics-only{
+        margin: 3px;
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .image{
+        height: 20vh;
+        background-color: salmon;
+    }
+
+    
 }
