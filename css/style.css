@@ -198,7 +198,11 @@ header{
 
     /*Footer*/
     footer{
+        margin: 0 5vw;
         height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .fa-home{
@@ -215,5 +219,10 @@ header{
 
     .fa-heart{
         font-size: 22px;
+    }
+
+    .user{
+        width: 22px;
+        border-radius: 50%;
     }
 }
