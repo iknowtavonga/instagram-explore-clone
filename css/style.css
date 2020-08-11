@@ -166,5 +166,34 @@ header{
         background-color: salmon;
     }
 
-    
+    .pv-container{
+        margin: 3px;
+        display: grid;
+        grid-gap: 3px;
+        grid-template-areas: 
+        'top-pv-image pv-video pv-video'
+        'bottom-pv-image pv-video pv-video';
+    }
+
+    .pv-video{
+        /*background-image: url(../img/test.png);
+        background-position: center;
+        background-size: cover;*/
+        background-color: darkcyan;
+        grid-area: pv-video;
+       
+    }
+
+    .top-pv-image{
+        grid-area: top-pv-image;
+        height: 20vh;
+        background-color: burlywood;
+    }
+
+    .bottom-pv-image{
+        grid-area: bottom-pv-image;
+        height: 20vh;
+        background-color: burlywood;
+    }
+
 }
