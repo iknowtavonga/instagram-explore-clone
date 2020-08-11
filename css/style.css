@@ -196,4 +196,24 @@ header{
         background-color: burlywood;
     }
 
+    /*Footer*/
+    footer{
+        height: 5vh;
+    }
+
+    .fa-home{
+        font-size: 22px;
+    }
+
+    .footer-search{
+        font-size: 20px;
+    }
+
+    .fa-plus-square{
+        font-size: 22px;
+    }
+
+    .fa-heart{
+        font-size: 22px;
+    }
 }
