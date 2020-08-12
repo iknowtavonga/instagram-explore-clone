@@ -170,10 +170,10 @@ header{
         display: grid;
         grid-gap: 3px;
         grid-template-columns: repeat(3, 1fr);
+        /*grid-auto-rows: minmax(32vw, 32vw);*/
     }
     .image{
-        height: 20vh;
-        background-color: salmon;
+        width: 32vw;
     }
 
     .pv-container{
@@ -189,21 +189,25 @@ header{
         /*background-image: url(../img/test.png);
         background-position: center;
         background-size: cover;*/
-        background-color: darkcyan;
+        
         grid-area: pv-video;
        
     }
 
+    .video{
+        width: 64vw;
+    }
+
     .top-pv-image{
         grid-area: top-pv-image;
-        height: 20vh;
-        background-color: burlywood;
+        width: 32vw;
+        
     }
 
     .bottom-pv-image{
         grid-area: bottom-pv-image;
-        height: 20vh;
-        background-color: burlywood;
+        width: 32vw;
+        
     }
 
     /*Footer*/
