@@ -191,6 +191,7 @@ header{
     }
 
     .video{
+        height: 30vh;
         width: 64vw;
     }
 
