@@ -12,7 +12,7 @@
 
 #logo{
     cursor: pointer;
-    width: 10vw;
+    width: 7vw;
 }
 
 header{
@@ -28,7 +28,7 @@ header{
     }
 
     .web-container{
-        width: 80%;
+        width: 72%;
         margin: auto;
     }
 
@@ -38,7 +38,7 @@ header{
     }
 
     #search-bar{
-        width: 15vw;
+        width: 16vw;
         height: 30px;
         border: 1px solid rgb(216, 216, 216);
         border-radius: 4px;
@@ -62,9 +62,9 @@ header{
     }
     .web-button{
         cursor: pointer;
-        font-weight: 500;
-        width: 70px;
-        height: 35px;
+        font-weight: 700;
+        width: 60px;
+        height: 30px;
         -webkit-appearance: none;
         outline: none;
         border: none;
@@ -92,9 +92,9 @@ header{
     }
 
     .feed-heading{
-        padding: 30px 0 20px 0;
-        font-size: 13px;
-        font-weight: 700;
+        padding: 20px 0 20px 0;
+        font-size: 0.9em;
+        font-weight: bold;
         color: rgba(0, 0, 0, 0.562);
     }
 
@@ -104,14 +104,10 @@ header{
         grid-template-columns: repeat(3, 1fr);
     }
     .image{
-        height: 40vh;
+        width: 22vw;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    .image img{
-        height: 40vh;
     }
     
 }
