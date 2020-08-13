@@ -121,7 +121,7 @@ header{
 
     header{
         justify-content: center;
-        background-color: rgba(235, 235, 235, 0.747);
+        background-color: white;
         display: flex;
         flex-direction: column;
     }
@@ -130,25 +130,47 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0.5em;
+        padding: 0.5em 0;
         width: 98vw;
     }
 
     .header-left{
         display: flex;
         align-items: center;
-        background-color: #ffffff;
+        background-color: rgba(235, 235, 235, 0.747);
+        border: 1px solid rgba(0, 0, 0, 0.418);
         height: 4vh;
         border-radius: 10px;
-        padding: 3px;
+        padding: 5px;
+        margin-left: 3px;
+    }
+
+    .header-right{
+        padding: 6px;
+    }
+
+    .header-right .fa-home{
+        font-size: 20px;
     }
 
     #search-bar{
         outline: none;
         border: none;
+        background-color: rgba(235, 235, 235, 0.747);
         border-radius: 10px;
         width: 80vw;
         padding: 3px;
+    }
+
+    .header-bottom{
+        position: sticky;
+        top: 0px;
+        height: 20px;
+        width: 100%;
+        background-color: white;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     /*Main Section*/
@@ -210,11 +232,13 @@ header{
     /*Footer*/
     footer{
         margin: 0;
+        /*The code below is for a fixed footer*/
         position: fixed;
         bottom: 0;
         width: 100%;
         background-color: white;
         padding: 10px;
+        /*Fixed footer*/
         display: flex;
         align-items: center;
         justify-content: space-between;
