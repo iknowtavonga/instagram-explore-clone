@@ -1,12 +1,9 @@
-/*Global Styles*/
+/*Global Styles (Available on both web and app)*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    /* Background for main section of web version
-    
-    background-color: rgb(235, 235, 235);*/
 }
 
 
@@ -21,8 +18,8 @@ header{
 }
 
 /*Web only styles*/
-
 @media (min-width: 769px){ 
+    /*display none ensures that all html elements with an id of app do not show up on larger devices*/
     #app{
         display: none;
     }
@@ -40,9 +37,9 @@ header{
     #search-bar{
         width: 16vw;
         height: 30px;
+        padding: 5px;
         border: 1px solid rgb(216, 216, 216);
         border-radius: 4px;
-        padding: 5px;
         background-color: rgba(235, 235, 235, 0.664);
         color: rgba(0, 0, 0, 0.562);
         -webkit-appearance: none;
@@ -60,6 +57,7 @@ header{
     .web-buttons{
         padding: 8px 0;
     }
+
     .web-button{
         cursor: pointer;
         font-weight: 700;
@@ -98,11 +96,13 @@ header{
         color: rgba(0, 0, 0, 0.562);
     }
 
+    /*Web only shows images and they are in three columns as styled below*/
     .pics-only{
         display: grid;
         grid-gap: 20px;
         grid-template-columns: repeat(3, 1fr);
     }
+
     .image{
         width: 22vw;
         display: flex;
@@ -113,19 +113,20 @@ header{
 }
 
 /*App Only Styles*/
-
 @media (min-width: 290px) and (max-width: 768px){
+
+    /*Web only styles are disabled*/
     #web{
         display: none;
     }
 
     header{
-        justify-content: center;
-        background-color: white;
-        display: flex;
         flex-direction: column;
+        justify-content: center;
+        background-color: white; 
     }
     
+    /*Styling for top search area*/
     .header-top{
         display: flex;
         align-items: center;
@@ -162,6 +163,7 @@ header{
         padding: 3px;
     }
 
+    /*Styling below is for the sticky navigation*/
     .header-bottom{
         z-index: 2;
         position: sticky;
@@ -198,6 +200,7 @@ header{
         position: relative;
         padding-bottom: 2em;
     }
+
     .reels{
         overflow: hidden;
         height: 50vh;
@@ -206,7 +209,6 @@ header{
 
     .reels video{
         height: 50vh;
-        
     }
 
     .pics-only{
@@ -214,8 +216,8 @@ header{
         display: grid;
         grid-gap: 3px;
         grid-template-columns: repeat(3, 1fr);
-        /*grid-auto-rows: minmax(32vw, 32vw);*/
     }
+
     .image{
         width: 32vw;
     }
@@ -230,12 +232,7 @@ header{
     }
 
     .pv-video{
-        /*background-image: url(../img/test.png);
-        background-position: center;
-        background-size: cover;*/
-        
         grid-area: pv-video;
-       
     }
 
     .video{
@@ -246,18 +243,16 @@ header{
     .top-pv-image{
         grid-area: top-pv-image;
         width: 32vw;
-        
     }
 
     .bottom-pv-image{
         grid-area: bottom-pv-image;
         width: 32vw;
-        
     }
 
     /*Footer*/
     footer{
-        margin: 0;
+        
         /*The code below is for a fixed footer*/
         position: fixed;
         bottom: 0;
@@ -265,6 +260,7 @@ header{
         background-color: white;
         padding: 10px;
         /*Fixed footer*/
+    
         display: flex;
         align-items: center;
         justify-content: space-between;
