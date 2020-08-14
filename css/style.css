@@ -165,12 +165,30 @@ header{
     .header-bottom{
         position: sticky;
         top: 0px;
-        height: 20px;
+        height: 30px;
         width: 100%;
         background-color: white;
         overflow: hidden;
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .nav-button{
+        width: 80px;
+        height: 25px;
+        padding: 5px;
+        background-color: rgba(235, 235, 235, 0.747);
+        outline: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fa-shopping-bag{
+        font-size: 10px;
+        margin-right: 4px;
+        margin-bottom: 2px;
     }
 
     /*Main Section*/
