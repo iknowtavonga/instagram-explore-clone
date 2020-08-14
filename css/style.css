@@ -199,9 +199,14 @@ header{
         padding-bottom: 2em;
     }
     .reels{
-        background-color: aqua;
+        overflow: hidden;
         height: 50vh;
         margin: 3px;
+    }
+
+    .reels video{
+        height: 50vh;
+        
     }
 
     .pics-only{
