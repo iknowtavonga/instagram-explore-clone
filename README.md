@@ -59,3 +59,37 @@ The footer is fixed to the bottom of the page and flexed to keep the icon distan
 * Upload
 * Likes
 * User
+
+## Hardest sections
+
+Grid templates have been tricky for me and this project pushed me to the deep end and forced me to learn and understand the concept better. I am still a few projects away from being comfortable with the concept but the learning process has been an interesting one. The following code shows how i executed my video and pictures grid...
+
+```css
+    .pv-container{
+        margin: 3px;
+        display: grid;
+        grid-gap: 3px;
+        grid-template-areas: 
+        'top-pv-image pv-video pv-video'
+        'bottom-pv-image pv-video pv-video';
+    }
+
+    .pv-video{
+        grid-area: pv-video;
+    }
+
+    .video{
+        height: 30vh;
+        width: 64vw;
+    }
+
+    .top-pv-image{
+        grid-area: top-pv-image;
+        width: 32vw;
+    }
+
+    .bottom-pv-image{
+        grid-area: bottom-pv-image;
+        width: 32vw;
+    }
+```
