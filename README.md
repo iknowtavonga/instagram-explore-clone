@@ -27,4 +27,8 @@ The header was flexed to allow for an equal amount of space between the followin
 
 ### Main
 
-The main section contains a combination of 3x2 grids along with a title separating recent images and top posts
+The main section contains a combination of 3x2 grids along with a title separating recent images and top posts.
+
+## App version
+
+The app version was a little more complicated than the web version as it had more grid elements included along with a sticky header and fixed footer. If more time arises i might optimise the app version for tablet devices because the elements look stretched on those devices.
