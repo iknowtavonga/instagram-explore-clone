@@ -51,3 +51,11 @@ The header bottom sticks to the top of the screen when the user scrolls down
 * Pictures only grid
 
 The grid system is separated into different groups as shown above. This is not a nested grid system but individual grid systems that have been combined to make one whole grid. 
+
+### Footer
+The footer is fixed to the bottom of the page and flexed to keep the icon distant equal. The following icons are used in the footer:
+* Home
+* Search
+* Upload
+* Likes
+* User
