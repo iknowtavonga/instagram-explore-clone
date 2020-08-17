@@ -32,3 +32,22 @@ The main section contains a combination of 3x2 grids along with a title separati
 ## App version
 
 The app version was a little more complicated than the web version as it had more grid elements included along with a sticky header and fixed footer. If more time arises i might optimise the app version for tablet devices because the elements look stretched on those devices.
+
+### Header
+#### Header Top
+* Search bar
+* Scan button
+
+#### Header Bottom
+
+The header bottom sticks to the top of the screen when the user scrolls down
+* hashtag buttons
+
+### Main
+
+* Reels video
+* Pictures only grid
+* Pictures and video grid
+* Pictures only grid
+
+The grid system is separated into different groups as shown above. This is not a nested grid system but individual grid systems that have been combined to make one whole grid. 
