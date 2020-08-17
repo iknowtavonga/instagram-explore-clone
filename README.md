@@ -93,3 +93,17 @@ Grid templates have been tricky for me and this project pushed me to the deep en
         width: 32vw;
     }
 ```
+
+## Important concepts
+
+This project was meant for me to familiarise myself with css grid (and sure i've learnt alot on that aspect) but the most important take away from this project was how to powerful media queries are and how much flexibility they give you. This project did not have a lot of global styles and this caused the 2 versions built on 1 platform to look completely different from each other.
+
+## Final thoughts
+
+I usually write something project related in this section but i felt like doing something different today so here we go. In the past week or so i have dedicated my spare time into learning touch typing. This has kinda affected my coding time but it has made me realise how much time i have been dedicating to learning to code. Not only that but it has given my brain some time to rest and really soak in the concepts i had been learning. 
+
+Also side note, i did this whole README without looking at my keyboard... so the lessons are working (even though it took me about 4 hours to reach this point).
+
+Okay to cut this short since my fingers are starting to burn... It looks like i am not going to give up learning web development and i am thankful to the tutorial resources that made learning easy and convinced me into thinking that this is something i can actually be good at.
+
+> *"You will never know if a door is locked until you turn the knob"* - ***Mom***
